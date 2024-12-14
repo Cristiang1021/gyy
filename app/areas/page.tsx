@@ -11,7 +11,7 @@ const practiceAreas = [
   {
     title: "Derecho Penal",
     description:
-      "Defendemos sus derechos en casos penales, desde delitos menores hasta casos complejos, con una estrategia sólida y experiencia en litigios.",
+      "Defendemos sus derechos en casos penales, desde delitos menores hasta casos complejos, con una estrategia sólida y experiencia en litigios",
     icon: Gavel,
     color: "bg-red-100 text-red-600",
   },
