@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { useState } from "react";
-import { Facebook, Instagram, Twitter, MapPin, Phone, MessageSquare } from "lucide-react";
+import { Facebook, MapPin, MessageSquare } from "lucide-react";
 
 const defaultAvatar = "/avatar.png"; // Ruta de la imagen predeterminada
 

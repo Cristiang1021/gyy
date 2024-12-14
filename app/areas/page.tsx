@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Gavel, Scale, Building2, Users, Briefcase, UserPlus } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
-import { Facebook, Instagram, Twitter, MapPin, Phone, MessageSquare } from "lucide-react";
+import { Facebook, MapPin,  MessageSquare } from "lucide-react";
 
 const practiceAreas = [
   {

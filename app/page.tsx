@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Facebook, Instagram, Twitter, MapPin, Phone, MessageSquare } from "lucide-react";
+import { Facebook, MapPin, MessageSquare } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const carouselImages = [
@@ -44,7 +44,7 @@ export default function Home() {
       clearInterval(interval);
       clearInterval(phraseInterval);
     };
-  }, []);
+  }, [phrases.length]);;
 
   return (
     <div className="min-h-screen flex flex-col">
