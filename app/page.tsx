@@ -28,7 +28,7 @@ export default function Home() {
     "Ten fe: Ten fe en el derecho, como el mejor instrumento para la convivencia humana.",
     "Olvida: Concluido el combate, olvida tan pronto tu victoria como tu derrota.",
     "Ama tu profesión: Considera la abogacía como un honor que puedes recomendar con orgullo.",
-  ];
+  ];  
   const [currentPhrase, setCurrentPhrase] = useState(0);
 
   useEffect(() => {
