@@ -10,8 +10,6 @@ import {
   Briefcase,
   DollarSign,
   FileText,
-  Users,
-  UserPlus,
 } from "lucide-react";
 import Image from "next/image";
 import { Facebook, MapPin, MessageSquare } from "lucide-react";
