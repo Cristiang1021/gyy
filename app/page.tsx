@@ -10,9 +10,9 @@ import { Facebook, MapPin, MessageSquare } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const carouselImages = [
-  { src: "/hero1.jpeg", alt: "Imagen 1 - G&Y Abogados" },
-  { src: "/hero2.jpeg", alt: "Imagen 2 - G&Y Abogados" },
-  { src: "/hero3.jpeg", alt: "Imagen 3 - G&Y Abogados" },
+  { src: "/hero1.jpeg", alt: "Imagen 1 - G&G Abogados" },
+  { src: "/hero2.jpeg", alt: "Imagen 2 - G&G Abogados" },
+  { src: "/hero3.jpeg", alt: "Imagen 3 - G&G Abogados" },
 ];
 
 export default function Home() {
@@ -57,7 +57,7 @@ export default function Home() {
           <Link href="/">
             <Image
               src="/logo.png"
-              alt="G&Y Abogados"
+              alt="G&G Abogados"
               width={80}
               height={40}
               className="object-contain"
@@ -72,7 +72,10 @@ export default function Home() {
               Nuestros Abogados
             </Link>
             <Link href="/areas" className="hover:text-amber-600">
-              Áreas de Práctica
+              Servicios Legales
+            </Link>
+            <Link href="/servicios_educativos" className="hover:text-amber-600">
+              Servicios Educativos
             </Link>
             <Link href="/contacto" className="hover:text-amber-600">
               Contacto
@@ -95,7 +98,7 @@ export default function Home() {
               Nuestros Abogados
             </Link>
             <Link href="/areas" onClick={() => setMenuOpen(false)} className="hover:text-amber-600">
-              Áreas de Práctica
+              Servicios Legales
             </Link>
             <Link href="/contacto" onClick={() => setMenuOpen(false)} className="hover:text-amber-600">
               Contacto
@@ -146,7 +149,7 @@ export default function Home() {
         <section className="py-16 bg-slate-100">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-slate-800">
-              ¿Por qué elegir G&Y Abogados?
+              ¿Por qué elegir G&G Abogados?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
@@ -194,11 +197,11 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-8 text-center">Testimonios de Clientes</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <blockquote className="bg-slate-700 p-6 rounded-lg italic">
-                "Gracias a G&Y, resolví una disputa laboral compleja con resultados favorables. Su
+                "Gracias a G&G, resolví una disputa laboral compleja con resultados favorables. Su
                 equipo me dio confianza desde el primer día."
               </blockquote>
               <blockquote className="bg-slate-700 p-6 rounded-lg italic">
-                "El equipo de G&Y manejó mi caso de familia con empatía y profesionalismo. Estoy
+                "El equipo de G&G manejó mi caso de familia con empatía y profesionalismo. Estoy
                 muy agradecida por su apoyo constante."
               </blockquote>
             </div>
@@ -208,18 +211,18 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
-        <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="flex items-center justify-center md:justify-start">
+        <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ml-4">
+          <div className="flex items-center justify-center md:justify-start ml-4">
             <Image
               src="/logo.png"
-              alt="G&Y Abogados"
+              alt="G&G Abogados"
               width={80}
               height={40}
               className="object-contain bg-white p-2 rounded shadow-md"
             />
           </div>
           <div className="flex flex-col justify-center items-center md:items-start">
-            <h3 className="text-xl font-semibold mb-2">G&Y Abogados</h3>
+            <h3 className="text-xl font-semibold mb-2">G&G Abogados</h3>
             <p className="text-sm text-center md:text-left">
               Expertos en derecho, comprometidos con la justicia y la excelencia legal.
             </p>
@@ -239,7 +242,12 @@ export default function Home() {
               </li>
               <li>
                 <Link href="/areas" className="hover:text-amber-400 transition duration-200">
-                  Áreas de Práctica
+                  Servicios Legales
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicios_educativos" className="hover:text-amber-400 transition duration-200">
+                  Servicios Educativos
                 </Link>
               </li>
               <li>
@@ -307,7 +315,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full max-w-screen-xl mx-auto mt-8 pt-8 border-t border-slate-700 text-center">
-          <p className="text-sm">&copy; 2024 G&Y Abogados. Todos los derechos reservados.</p>
+          <p className="text-sm">&copy; 2024 G&G Abogados. Todos los derechos reservados.</p>
         </div>
       </footer>
     </div>

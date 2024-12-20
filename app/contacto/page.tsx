@@ -18,7 +18,7 @@ export default function Contact() {
           <Link href="/">
             <Image
               src="/logo.png"
-              alt="G&Y Abogados"
+              alt="G&G Abogados"
               width={80}
               height={40}
               className="object-contain"
@@ -33,7 +33,10 @@ export default function Contact() {
               Nuestros Abogados
             </Link>
             <Link href="/areas" className="hover:text-amber-600">
-              Áreas de Práctica
+              Servicios Legales
+            </Link>
+            <Link href="/servicios_educativos" className="hover:text-amber-600">
+              Servicios Educativos
             </Link>
             <Link href="/contacto" className="hover:text-amber-600">
               Contacto
@@ -56,7 +59,10 @@ export default function Contact() {
               Nuestros Abogados
             </Link>
             <Link href="/areas" onClick={() => setMenuOpen(false)}>
-              Áreas de Práctica
+              Servicios Legales
+            </Link>
+            <Link href="/servicios_educativos" onClick={() => setMenuOpen(false)}>
+              Servicios Educativos
             </Link>
             <Link href="/contacto" onClick={() => setMenuOpen(false)}>
               Contacto
@@ -102,7 +108,7 @@ export default function Contact() {
             <CardContent>
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215707164965!2d-73.98823668459377!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1621538149898!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.8655747347366!2d-78.65550382534268!3d-1.6701923983143152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3a8264314caff%3A0xc9b62bafae7b0291!2s10%20de%20Agosto%20%26%20Magdalena%20Davalos%2C%20Riobamba%2C%20Ecuador!5e1!3m2!1ses!2sus!4v1734720660637!5m2!1ses!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -141,13 +147,13 @@ export default function Contact() {
 
      {/* Footer */}
      <footer className="bg-slate-900 text-white py-12">
-  <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+  <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ml-4">
     
     {/* Logo de la firma */}
-    <div className="flex items-center justify-center md:justify-start">
+    <div className="flex items-center justify-center md:justify-start ml-4">
       <Image
         src="/logo.png"
-        alt="G&Y Abogados"
+        alt="G&G Abogados"
         width={80}
         height={40}
         className="object-contain bg-white p-2 rounded shadow-md" // Fondo blanco y sombra
@@ -156,7 +162,7 @@ export default function Contact() {
 
     {/* Información de la firma */}
     <div className="flex flex-col justify-center items-center md:items-start">
-      <h3 className="text-xl font-semibold mb-2">G&Y Abogados</h3>
+      <h3 className="text-xl font-semibold mb-2">G&G Abogados</h3>
       <p className="text-sm text-center md:text-left">
         Expertos en derecho, comprometidos con la justicia y la excelencia legal.
       </p>
@@ -178,9 +184,14 @@ export default function Contact() {
         </li>
         <li>
           <Link href="/areas" className="hover:text-amber-400 transition duration-200">
-            Áreas de Práctica
+            Servicios Legales
           </Link>
         </li>
+        <li>
+                <Link href="/servicios_educativos" className="hover:text-amber-400 transition duration-200">
+                  Servicios Educativos
+                </Link>
+              </li>
         <li>
           <Link href="/contacto" className="hover:text-amber-400 transition duration-200">
             Contacto
@@ -249,7 +260,7 @@ export default function Contact() {
   </div>
 
   <div className="w-full max-w-screen-xl mx-auto mt-8 pt-8 border-t border-slate-700 text-center">
-    <p className="text-sm">&copy; 2024 G&Y Abogados. Todos los derechos reservados.</p>
+    <p className="text-sm">&copy; 2024 G&G Abogados. Todos los derechos reservados.</p>
   </div>
 </footer>
     </div>

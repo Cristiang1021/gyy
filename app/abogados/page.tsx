@@ -23,13 +23,23 @@ const foundingPartners = [
     image: "/cristian_yuqui.jpeg",
     bio: "Texto / descripción etc.",
   },
+  { id: 5, 
+    name: "Abg. Víctor Ríos", 
+    specialty: "Socio Fundador", 
+    image: "/victor_rios.jpeg", 
+    bio: "Texto / descripción etc." 
+  },
+  { id: 6, 
+    name: "Abg. Stalin Lloay", 
+    specialty: "Socio Fundador", 
+    image: "/stalyn_lloay.jpeg",
+    bio: "Texto / descripción etc." 
+  },
 ];
 
 const associates = [
   { id: 3, name: "Abg. Luis Ilbay", specialty: "Titulo / especialidad, etc.", image: "/luis_ilbay.jpeg", bio: "Texto / descripción etc." },
   { id: 4, name: "Abg. Marco Huilca", specialty: "Titulo / especialidad, etc.", image: "/marco_huilca.jpeg", bio: "Texto / descripción etc." },
-  { id: 5, name: "Abg. Víctor Ríos", specialty: "Titulo / especialidad, etc.", image: "/victor_rios.jpeg", bio: "Texto / descripción etc." },
-  { id: 6, name: "Abg. Stalin Lloay", specialty: "Titulo / especialidad, etc.", image: null, bio: "Texto / descripción etc." },
   { id: 7, name: "Abg. Diego Erazo", specialty: "Titulo / especialidad, etc.", image: null, bio: "Texto / descripción etc." },
   { id: 8, name: "Abg. Sandra Zumba", specialty: "Titulo / especialidad, etc.", image: null, bio: "Texto / descripción etc." },
   { id: 9, name: "Abg. Sandra Cabezas", specialty: "Titulo / especialidad, etc.", image: null, bio: "Texto / descripción etc." },
@@ -49,7 +59,7 @@ export default function OurLawyers() {
           <Link href="/">
             <Image
               src="/logo.png"
-              alt="G&Y Abogados"
+              alt="G&G Abogados"
               width={80}
               height={40}
               className="object-contain"
@@ -64,7 +74,10 @@ export default function OurLawyers() {
               Nuestros Abogados
             </Link>
             <Link href="/areas" className="hover:text-amber-600">
-              Áreas de Práctica
+              Servicios Legales
+            </Link>
+            <Link href="/servicios_educativos" className="hover:text-amber-600">
+              Servicios Educativos
             </Link>
             <Link href="/contacto" className="hover:text-amber-600">
               Contacto
@@ -87,7 +100,10 @@ export default function OurLawyers() {
               Nuestros Abogados
             </Link>
             <Link href="/areas" onClick={() => setMenuOpen(false)}>
-              Áreas de Práctica
+              Servicios Legales
+            </Link>
+            <Link href="/servicios_educativos" onClick={() => setMenuOpen(false)}>
+              Servicios Educativos
             </Link>
             <Link href="/contacto" onClick={() => setMenuOpen(false)}>
               Contacto
@@ -163,13 +179,13 @@ export default function OurLawyers() {
 
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
-  <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+  <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ml-4">
     
     {/* Logo de la firma */}
-    <div className="flex items-center justify-center md:justify-start">
+    <div className="flex items-center justify-center md:justify-start ml-4">
       <Image
         src="/logo.png"
-        alt="G&Y Abogados"
+        alt="G&G Abogados"
         width={80}
         height={40}
         className="object-contain bg-white p-2 rounded shadow-md" // Fondo blanco y sombra
@@ -178,7 +194,7 @@ export default function OurLawyers() {
 
     {/* Información de la firma */}
     <div className="flex flex-col justify-center items-center md:items-start">
-      <h3 className="text-xl font-semibold mb-2">G&Y Abogados</h3>
+      <h3 className="text-xl font-semibold mb-2">G&G Abogados</h3>
       <p className="text-sm text-center md:text-left">
         Expertos en derecho, comprometidos con la justicia y la excelencia legal.
       </p>
@@ -200,9 +216,14 @@ export default function OurLawyers() {
         </li>
         <li>
           <Link href="/areas" className="hover:text-amber-400 transition duration-200">
-            Áreas de Práctica
+            Servicios Legales
           </Link>
         </li>
+        <li>
+                <Link href="/servicios_educativos" className="hover:text-amber-400 transition duration-200">
+                  Servicios Educativos
+                </Link>
+              </li>
         <li>
           <Link href="/contacto" className="hover:text-amber-400 transition duration-200">
             Contacto
@@ -271,7 +292,7 @@ export default function OurLawyers() {
   </div>
 
   <div className="w-full max-w-screen-xl mx-auto mt-8 pt-8 border-t border-slate-700 text-center">
-    <p className="text-sm">&copy; 2024 G&Y Abogados. Todos los derechos reservados.</p>
+    <p className="text-sm">&copy; 2024 G&G Abogados. Todos los derechos reservados.</p>
   </div>
 </footer>
     </div>
