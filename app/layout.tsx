@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "GYY FIRMA DE ABOGADOS",
-  description: "GYY FIRMA DE ABOGADOS",
+  title: "GYG FIRMA DE ABOGADOS",
+  description: "GYG FIRMA DE ABOGADOS",
 };
 
 export default function RootLayout({
