@@ -313,7 +313,7 @@ export default function Home() {
                     0967095478
                   </a>
                   <a
-                    href="https://wa.link/13j82r"
+                    href="https://wa.link/qa6wwc"
                     className="hover:text-blue-400 transition duration-200"
                     target="_blank"
                     rel="noopener noreferrer"

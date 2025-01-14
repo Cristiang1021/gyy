@@ -270,7 +270,7 @@ Del mismo modo brindamos asesoría en trabajos de investigación, siempre en ben
                     0967095478
                   </a>
                   <a
-                    href="https://wa.link/13j82r"
+                    href="https://wa.link/qa6wwc"
                     className="hover:text-blue-400 transition duration-200"
                     target="_blank"
                     rel="noopener noreferrer"

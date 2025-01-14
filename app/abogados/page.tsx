@@ -24,7 +24,7 @@ const foundingPartners = [
     specialty: "Socio Fundador",
     image: "/cristian_yuqui.jpeg",
     bio: "Texto / descripción etc.",
-    whatsappLink: "https://wa.link/13j82r", // Agrega el enlace de WhatsApp aquí
+    whatsappLink: "https://wa.link/qa6wwc", // Agrega el enlace de WhatsApp aquí
   },
   {
     id: 3,
@@ -323,7 +323,7 @@ export default function OurLawyers() {
                     0967095478
                   </a>
                   <a
-                    href="https://wa.link/13j82r"
+                    href="https://wa.link/qa6wwc"
                     className="hover:text-blue-400 transition duration-200"
                     target="_blank"
                     rel="noopener noreferrer"
