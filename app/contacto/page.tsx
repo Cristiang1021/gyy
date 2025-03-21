@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-//import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, Facebook, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -147,28 +147,33 @@ export default function Contact() {
           </Card>
         </div>
 
-{/*         <div className="mt-12">
-          <Card className="bg-white">
-            <CardHeader>
-              <CardTitle className="text-2xl font-semibold mb-2">Programe una consulta</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="mb-4">
-                Estamos disponibles para discutir su caso. Contáctenos por teléfono o correo electrónico para programar una consulta inicial.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="flex items-center justify-center">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Llamar ahora
-                </Button>
-                <Button variant="outline" className="flex items-center justify-center">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Enviar correo
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </div> */}
+        <div className="mt-12">
+  <Card className="bg-white">
+    <CardHeader>
+      <CardTitle className="text-2xl font-semibold mb-2">Programe una consulta</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <p className="mb-4">
+        Estamos disponibles para discutir su caso. Contáctenos por teléfono o correo electrónico para programar una consulta inicial.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a href="tel:0967095478" className="w-full sm:w-auto">
+          <Button className="flex items-center justify-center w-full">
+            <Phone className="mr-2 h-4 w-4" />
+            Llamar ahora
+          </Button>
+        </a>
+        <a href="mailto:klever.guaman@gmail.com" className="w-full sm:w-auto">
+          <Button variant="outline" className="flex items-center justify-center w-full">
+            <Mail className="mr-2 h-4 w-4" />
+            Enviar correo
+          </Button>
+        </a>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
 
       </main>
 
