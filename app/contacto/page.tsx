@@ -119,7 +119,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-blue-400" />
-                <p>info@gyabogados.com</p>
+                <p>klever.guaman@gmail.com</p>
               </div>
               <div className="flex items-center">
                 <Clock className="mr-2 h-5 w-5 text-blue-400" />
@@ -157,7 +157,7 @@ export default function Contact() {
         Estamos disponibles para discutir su caso. Contáctenos por teléfono o correo electrónico para programar una consulta inicial.
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
-        <a href="tel:0967095478" className="w-full sm:w-auto">
+        <a href="tel:+593967095478" className="w-full sm:w-auto">
           <Button className="flex items-center justify-center w-full">
             <Phone className="mr-2 h-4 w-4" />
             Llamar ahora
