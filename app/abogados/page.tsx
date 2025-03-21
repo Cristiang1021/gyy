@@ -15,7 +15,7 @@ const foundingPartners = [
     name: "Dr. Klever Guamán",
     specialty: "Socio Fundador",
     image: "/klever_guaman.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/7nlxoo", // Agrega el enlace de WhatsApp aquí
   },
   {
@@ -23,7 +23,7 @@ const foundingPartners = [
     name: "Abg. Cristian Yuqui",
     specialty: "Socio Fundador",
     image: "/cristian_yuqui.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/qa6wwc", // Agrega el enlace de WhatsApp aquí
   },
   {
@@ -31,7 +31,7 @@ const foundingPartners = [
     name: "Abg. Víctor Ríos",
     specialty: "Socio Fundador",
     image: "/victor_rios.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/lusepd", // Agrega el enlace de WhatsApp aquí
   },
   {
@@ -39,7 +39,7 @@ const foundingPartners = [
     name: "Abg. Stalin Lloay",
     specialty: "Socio Fundador",
     image: "/stalyn_lloay.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/yz0hhb", // Agrega el enlace de WhatsApp aquí
   },
 ];
@@ -50,7 +50,7 @@ const associates = [
     name: "Abg. Luis Ilbay",
     specialty: "Asociado",
     image: "/luis_ilbay.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/n81mfi", // Agrega el enlace de WhatsApp aquí
   },
   {
@@ -58,7 +58,7 @@ const associates = [
     name: "Abg. Marco Huilca",
     specialty: "Asociado",
     image: "/marco_huilca.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/nippfd", // Agrega el enlace de WhatsApp aquí
   },
   {
@@ -66,7 +66,7 @@ const associates = [
     name: "Abg. Diego Erazo",
     specialty: "Asociado",
     image: "/diego_erazo.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/jytwnd", // Agrega el enlace de WhatsApp aquí
   },
   {
@@ -74,8 +74,16 @@ const associates = [
     name: "Abg. Juan Cujilema",
     specialty: "Asociado",
     image: "/juan_cujilema.jpeg",
-    bio: "Texto / descripción etc.",
+    bio: "",
     whatsappLink: "https://wa.link/joc5nu", // Agrega el enlace de WhatsApp aquí
+  },
+  {
+    id: 9,
+    name: "Abg. Sandra Zumba",
+    specialty: "Asociada",
+    image: "/sandra_zumba.jpeg",
+    bio: "",
+    whatsappLink: "https://wa.link/cgf8f2", // Agrega el enlace de WhatsApp aquí 
   },
 ];
 

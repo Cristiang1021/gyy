@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+//import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, Facebook, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -147,7 +147,7 @@ export default function Contact() {
           </Card>
         </div>
 
-        <div className="mt-12">
+{/*         <div className="mt-12">
           <Card className="bg-white">
             <CardHeader>
               <CardTitle className="text-2xl font-semibold mb-2">Programe una consulta</CardTitle>
@@ -168,7 +168,7 @@ export default function Contact() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
 
       </main>
 
