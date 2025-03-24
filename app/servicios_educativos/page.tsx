@@ -20,64 +20,63 @@ const serviciosEducativos = [
     description:
       "Asesoramiento y desarrollo de proyectos de investigación para estudiantes de pregrado y posgrado en el ámbito del derecho.",
     icon: GraduationCap,
+    color: "bg-red-400", // Color para el ícono
   },
   {
     title: "Artículos Científicos en Derecho y Educación",
     description:
       "Asistencia en la redacción y publicación de artículos científicos en el campo del derecho y la educación.",
     icon: FileText,
+    color: "bg-[#3498db]", // Azul
   },
   {
     title: "Estudios de Caso en Derecho y Educación",
     description:
       "Elaboración y análisis de estudios de caso que exploran la intersección entre el derecho y la educación.",
     icon: BookOpen,
+    color: "bg-[#9b59b6]", // Púrpura
   },
 ];
 
 const publicaciones = [
   {
-    title: "Publicaciones en la Revista Sociedad & Tecnología",
+    title: "¿Investigación científica, educativa o pedagógica en los trabajos del sistema de educación superior?",
     url: "https://revistas.utb.edu.ec/index.php/sr/search/authors/view?givenName=Klever%20Anibal&familyName=Guam%C3%A1n%20Chacha&affiliation=Docencia%20universitaria&country=EC&authorName=Guam%C3%A1n%20Chacha%2C%20Klever%20Anibal",
     description:
-      "Autor: Dr. Klever Aníbal Guamán Chacha. Colección de artículos publicados en la revista de la Universidad Técnica de Babahoyo, abordando temas de derecho y educación.",
-  },
+      "Autores: Klever A. Guamán Chacha, Luz M. Mosquera Arguello, Alan J. Orozco García y Nelis E. García Alcívar. El artículo analiza el tipo de investigación (científica, educativa o pedagógica) utilizada en trabajos universitarios, sus diferencias epistemológicas y metodológicas, y evidencia el predominio de enfoques científicos sobre los educativos y pedagógicos.",
+  },  
   {
-    title: "La mediación como política social aplicada al fortalecimiento de la cultura de paz en Ecuador",
+    title: "El positivismo y el positivismo jurídico",
     url: "http://scielo.sld.cu/scielo.php?script=sci_abstract&pid=S2218-36202020000400265",
     description:
-      "Autores: Klever Aníbal Guamán Chacha, Ned Vito Quevedo Arnaiz, Nemis García Arias. Publicado en la Revista Conrado, vol.16 no.76 Cienfuegos jul.-ago. 2020.",
+      "Autores: Klever A. Guamán Chacha, Eduardo L. Hernández Ramos y Stalin I. Lloay Sánchez. El artículo expone las bases del positivismo como corriente filosófica y del positivismo jurídico, destacando sus fundamentos epistemológicos y su vigencia en la práctica del derecho.",
+  },  
+  {
+    title: "La teoría del delito: fundamentos filosóficos",
+    url: "https://www.researchgate.net/publication/352036472_La_teoria_del_delito_fundamentos_filosoficos",
+    description: "Autores: Klever A. Guamán Chacha, Víctor M. Ríos Guamán y Cristian S. Yuqui Villacrés. Este artículo examina los fundamentos filosóficos de la teoría del delito, identificando que en las obras revisadas se abordan los elementos de dicha teoría sin determinar la posición teórica ni los fundamentos filosóficos subyacentes."
   },
   {
-    title: "Contribuciones científicas en ResearchGate",
-    url: "https://www.researchgate.net/scientific-contributions/Klever-Anibal-Guaman-Chacha-2175849192",
-    description:
-      "Perfil de investigación del Dr. Klever Aníbal Guamán Chacha en ResearchGate, mostrando sus publicaciones, proyectos y colaboraciones académicas.",
+    title: "El derecho a la salud y el incumplimiento del aislamiento de las personas infectadas por Covid-19",
+    url: "https://www.researchgate.net/publication/355329794_El_derecho_a_la_salud_y_el_incumplimiento_del_aislamiento_de_las_personas_infectadas_por_Covid-19",
+    description: "Autores: César E. Ochoa Díaz, Klever A. Guamán Chacha, Eduardo L. Hernández Ramos y Jessica R. Castillo Vizuete. Este estudio analiza las implicaciones legales y éticas del incumplimiento del aislamiento por parte de personas infectadas con Covid-19, resaltando la necesidad de medidas punitivas para prevenir la propagación del virus."
   },
   {
-    title: "Artículo en Dilemas Contemporáneos: Educación, Política y Valores",
-    url: "https://dilemascontemporaneoseducacionpoliticayvalores.com/index.php/dilemas/article/view/4337",
-    description:
-      "Autor: Dr. Klever Aníbal Guamán Chacha. Investigación publicada en la revista 'Dilemas Contemporáneos', abordando temas actuales en el campo del derecho y la educación.",
-  },
+    title: "El proyecto de investigación: la metodología de la investigación científica o jurídica",
+    url: "https://www.researchgate.net/publication/353827174_El_proyecto_de_investigacion_la_metodologia_de_la_investigacion_cientifica_o_juridica",
+    description: "Autores: Klever A. Guamán Chacha, Eduardo L. Hernández Ramos y Stalyn I. Lloay Sánchez. El artículo identifica las metodologías, paradigmas y métodos utilizados en proyectos de investigación en programas de derecho de universidades ecuatorianas, concluyendo que a menudo se emplean metodologías sin una clara comprensión de sus fundamentos epistemológicos."
+  }, 
   {
-    title: "Mediation as a social policy applied to strengthening the culture of peace in Ecuador",
-    url: "http://scielo.sld.cu/scielo.php?script=sci_abstract&pid=S2218-36202020000400265&lng=es&nrm=iso&tlng=en",
+    title: "Manifestaciones y consecuencias de la violencia política de género en Ecuador",
+    url: "https://doi.org/10.46377/dilemas.v12i1.4337",
     description:
-      "Authors: Klever Aníbal Guamán Chacha, Ned Vito Quevedo Arnaiz, Nemis García Arias. English version of the study on mediation and peace culture in Ecuador, published in Revista Conrado.",
-  },
+      "Autores: Klever A. Guamán Chacha, Eduardo L. Hernández Ramos y Marcos S. Huilca Herrera. El artículo estudia la violencia política de género en Ecuador desde un enfoque mixto, identificando formas como acoso verbal, exclusión y violencia digital, y evidenciando su impacto en la participación de las mujeres y la brecha entre ley y práctica.",
+  },  
   {
-    title: "Publicaciones en UNIANDES EPISTEME",
-    url: "https://revista.uniandes.edu.ec/ojs/index.php/EPISTEME/search/authors/view?givenName=Klever%20An%C3%ADbal&familyName=Guam%C3%A1n%20Chacha&affiliation=Extensi%C3%B3n%20Riobamba%2CUniversidad%20Regional%20Aut%C3%B3noma%20de%20los%20Andes&country=EC&authorName=Guam%C3%A1n%20Chacha%2C%20Klever%20An%C3%ADbal",
-    description:
-      "Autor: Dr. Klever Aníbal Guamán Chacha. Colección de artículos publicados en la revista UNIANDES EPISTEME de la Universidad Regional Autónoma de los Andes, Ecuador.",
-  },
-  {
-    title: "La mediación comunitaria como política pública y social para la solución de conflictos",
-    url: "https://dialnet.unirioja.es/servlet/articulo?codigo=8797386",
-    description:
-      "Autores: Klever Aníbal Guamán Chacha, Ned Vito Quevedo Arnaiz, Nemis García Arias. Publicado en Revista Universidad y Sociedad, ISSN-e 2218-3620, Vol. 14, Nº. S3, 2022, págs. 291-300.",
-  },
+    title: "El embarazo de adolescentes y sus consecuencias sociales",
+    url: "https://revista.uniandes.edu.ec/ojs/index.php/EPISTEME/article/view/1565",
+    description: "Autores: Eduardo I. Hernández Ramos, Klever A. Guamán Chacha y César E. Ochoa. El artículo analiza el impacto del embarazo adolescente en la salud, educación y entorno social de las jóvenes, destacando las consecuencias psicológicas, emocionales y educativas que enfrentan, así como la influencia de factores familiares y comunitarios."
+  },  
 ];
 
 export default function ServiciosEducativos() {
@@ -87,89 +86,88 @@ export default function ServiciosEducativos() {
     <div className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="bg-white text-slate-800 shadow-md">
-  <nav className="container mx-auto flex justify-between items-center py-4 px-4 md:px-0">
-    <Link href="/">
-      <Image
-        src="/logo.png"
-        alt="G&G Abogados"
-        width={80}
-        height={40}
-        className="object-contain"
-        priority
-      />
-    </Link>
-    <div className="hidden md:flex space-x-8 font-medium">
-      <Link href="/nosotros" className="hover:text-blue-600">
-        Sobre Nosotros
-      </Link>
-      <Link href="/abogados" className="hover:text-blue-600">
-        Nuestros Abogados
-      </Link>
-      <Link href="/areas" className="hover:text-blue-600">
-        Servicios Legales
-      </Link>
-      <Link href="/servicios_educativos" className="hover:text-blue-600">
-        Servicios Educativos
-      </Link>
-      <Link href="/contacto" className="hover:text-blue-600">
-        Contacto
-      </Link>
-    </div>
-    <button
-      onClick={() => setMenuOpen(!menuOpen)}
-      className="md:hidden p-2 rounded bg-slate-200"
-      aria-label="Abrir Menú"
-    >
-      ☰
-    </button>
-  </nav>
-  {menuOpen && (
-    <div className="absolute top-0 right-0 w-64 h-full bg-white text-slate-800 shadow-lg flex flex-col items-start p-6 md:hidden z-50">
-      <button
-        onClick={() => setMenuOpen(false)}
-        className="self-end mb-4 text-slate-800 text-xl font-bold"
-      >
-        ✖
-      </button>
-      <Link
-        href="/nosotros"
-        className="mb-4 hover:text-blue-600"
-        onClick={() => setMenuOpen(false)}
-      >
-        Sobre Nosotros
-      </Link>
-      <Link
-        href="/abogados"
-        className="mb-4 hover:text-blue-600"
-        onClick={() => setMenuOpen(false)}
-      >
-        Nuestros Abogados
-      </Link>
-      <Link
-        href="/areas"
-        className="mb-4 hover:text-blue-600"
-        onClick={() => setMenuOpen(false)}
-      >
-        Servicios Legales
-      </Link>
-      <Link
-        href="/servicios_educativos"
-        className="mb-4 hover:text-blue-600"
-        onClick={() => setMenuOpen(false)}
-      >
-        Servicios Educativos
-      </Link>
-      <Link
-        href="/contacto"
-        className="hover:text-blue-600"
-        onClick={() => setMenuOpen(false)}
-      >
-        Contacto
-      </Link>
-    </div>
-  )}
-</header>
-
+        <nav className="container mx-auto flex justify-between items-center py-4 px-4 md:px-0">
+          <Link href="/">
+            <Image
+              src="/logo.png"
+              alt="G&G Abogados"
+              width={80}
+              height={40}
+              className="object-contain"
+              priority
+            />
+          </Link>
+          <div className="hidden md:flex space-x-8 font-medium">
+            <Link href="/nosotros" className="hover:text-blue-600">
+              Sobre Nosotros
+            </Link>
+            <Link href="/abogados" className="hover:text-blue-600">
+              Nuestros Abogados
+            </Link>
+            <Link href="/areas" className="hover:text-blue-600">
+              Servicios Legales
+            </Link>
+            <Link href="/servicios_educativos" className="hover:text-blue-600">
+              Servicios Educativos
+            </Link>
+            <Link href="/contacto" className="hover:text-blue-600">
+              Contacto
+            </Link>
+          </div>
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden p-2 rounded bg-slate-200"
+            aria-label="Abrir Menú"
+          >
+            ☰
+          </button>
+        </nav>
+        {menuOpen && (
+          <div className="absolute top-0 right-0 w-64 h-full bg-white text-slate-800 shadow-lg flex flex-col items-start p-6 md:hidden z-50">
+            <button
+              onClick={() => setMenuOpen(false)}
+              className="self-end mb-4 text-slate-800 text-xl font-bold"
+            >
+              ✖
+            </button>
+            <Link
+              href="/nosotros"
+              className="mb-4 hover:text-blue-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              Sobre Nosotros
+            </Link>
+            <Link
+              href="/abogados"
+              className="mb-4 hover:text-blue-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              Nuestros Abogados
+            </Link>
+            <Link
+              href="/areas"
+              className="mb-4 hover:text-blue-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              Servicios Legales
+            </Link>
+            <Link
+              href="/servicios_educativos"
+              className="mb-4 hover:text-blue-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              Servicios Educativos
+            </Link>
+            <Link
+              href="/contacto"
+              className="hover:text-blue-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              Contacto
+            </Link>
+          </div>
+        )}
+      </header>
 
       {/* Main Content */}
       <main className="flex-grow bg-gradient-to-b from-[#f0f4f8] to-white">
@@ -199,6 +197,7 @@ export default function ServiciosEducativos() {
           </motion.div>
 
           {/* Servicios */}
+          {/* Servicios */}
           <motion.section variants={fadeIn} className="mb-16">
             <h2 className="text-3xl font-semibold mb-8 text-center text-[#3498db]">Nuestros Servicios</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -206,8 +205,8 @@ export default function ServiciosEducativos() {
                 <motion.div key={index} whileHover={{ scale: 1.05 }}>
                   <Card className="h-full">
                     <CardHeader>
-                      <CardTitle className="flex flex-col items-center text-2xl font-semibold text-[#2c3e50]">
-                        <div className="bg-[#e74c3c] rounded-full p-6 mb-4">
+                      <CardTitle className="flex flex-col items-center text-center text-2xl font-semibold text-[#2c3e50]">
+                        <div className={`${servicio.color} rounded-full p-6 mb-4`}>
                           <servicio.icon className="h-16 w-16 text-white" />
                         </div>
                         {servicio.title}
@@ -221,6 +220,7 @@ export default function ServiciosEducativos() {
               ))}
             </div>
           </motion.section>
+
 
           {/* Publicaciones */}
           <motion.section variants={fadeIn}>
@@ -320,30 +320,6 @@ export default function ServiciosEducativos() {
                     rel="noopener noreferrer"
                   >
                     0967095478
-                  </a>
-                  <a
-                    href="https://wa.link/qa6wwc"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0993871070
-                  </a>
-                  <a
-                    href="https://wa.link/lusepd"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0982330722
-                  </a>
-                  <a
-                    href="https://wa.link/yz0hhb"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0969891190
                   </a>
                 </div>
               </li>

@@ -71,7 +71,7 @@ const associates = [
   },
   {
     id: 8,
-    name: "Abg. Juan Cujilema",
+    name: "Abg. Juan Cajilema",
     specialty: "Asociado",
     image: "/juan_cujilema.jpeg",
     bio: "",
@@ -84,6 +84,30 @@ const associates = [
     image: "/sandra_zumba.jpeg",
     bio: "",
     whatsappLink: "https://wa.link/cgf8f2", // Agrega el enlace de WhatsApp aquí 
+  },
+  {
+    id: 10,
+    name: "Abg. Sandra Cabezas",
+    specialty: "Asociada",
+    image: "/sandra_cabezas.jpeg",
+    bio: "",
+    whatsappLink: "https://wa.link/ba9qeh", // Agrega el enlace de WhatsApp aquí 
+  },
+  {
+    id: 11,
+    name: "Abg. Erika Vilema",
+    specialty: "Asociada",
+    image: "/erika_vilema.jpeg",
+    bio: "",
+    whatsappLink: "https://wa.link/1fbogx", // Agrega el enlace de WhatsApp aquí 
+  },
+  {
+    id: 12,
+    name: "Abg. Francis Molina ",
+    specialty: "Asociado",
+    image: "/francis_molina.jpeg",
+    bio: "",
+    whatsappLink: "https://wa.link/mcbh6r", // Agrega el enlace de WhatsApp aquí 
   },
 ];
 
@@ -329,30 +353,6 @@ export default function OurLawyers() {
                     rel="noopener noreferrer"
                   >
                     0967095478
-                  </a>
-                  <a
-                    href="https://wa.link/qa6wwc"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0993871070
-                  </a>
-                  <a
-                    href="https://wa.link/lusepd"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0982330722
-                  </a>
-                  <a
-                    href="https://wa.link/yz0hhb"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0969891190
                   </a>
                 </div>
               </li>

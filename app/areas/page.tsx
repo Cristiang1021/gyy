@@ -293,30 +293,6 @@ export default function PracticeAreas() {
                   >
                     0967095478
                   </a>
-                  <a
-                    href="https://wa.link/qa6wwc"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0993871070
-                  </a>
-                  <a
-                    href="https://wa.link/lusepd"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0982330722
-                  </a>
-                  <a
-                    href="https://wa.link/yz0hhb"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0969891190
-                  </a>
                 </div>
               </li>
               <li className="flex items-center">

@@ -121,7 +121,7 @@ export default function AboutUs() {
               </h2>
               <p className="mb-4 text-gray-700">
               Somos una corporación jurídica experta en Derecho Publico y Privado, que nació hace 15 años atrás por iniciativa de Dr. Klever Guamán socio fundador y creador del logo además de la marca que impone respeto, experiencia y calidad en su servicio a lo largo de la ciudad de Riobamba y sus alrededores. 
-Nuestro equipo de trabajo ha evolucionado y se ha sumado el Abg. Victor Rios, Abg. Cristian Yuqui, Abg. Stalin Lloay, y el Abg. Juan Cujilema, que son un pilar fundamental dentro de la firma de abogados ya que su juventud inspira confianza además de crear expectativas muy altas al futuro que depara a G&G, siempre con el profesionalismo y con resultados garantizados.
+Nuestro equipo de trabajo ha evolucionado y se ha sumado el Abg. Victor Rios, Abg. Cristian Yuqui, Abg. Stalin Lloay, que son un pilar fundamental dentro de la firma de abogados ya que su juventud inspira confianza además de crear expectativas muy altas al futuro que depara a G&G, siempre con el profesionalismo y con resultados garantizados.
 Del mismo modo brindamos asesoría en trabajos de investigación, siempre en beneficio de la ciudadanía y precautelando los intereses de los futuros profesionales del Derecho. 
 
               </p>
@@ -143,7 +143,7 @@ Del mismo modo brindamos asesoría en trabajos de investigación, siempre en ben
                     Nuestra Misión
                   </h3>
                   <p className="text-gray-700">
-                  Asesorar a la ciudadanía ecuatoriana en temas legales, precautelando sus intereses y en necesidades.
+                  Asesorar a la ciudadanía ecuatoriana en temas legales, precautelando sus intereses y necesidades.
                   </p>
                 </CardContent>
               </Card>
@@ -268,30 +268,6 @@ Del mismo modo brindamos asesoría en trabajos de investigación, siempre en ben
                     rel="noopener noreferrer"
                   >
                     0967095478
-                  </a>
-                  <a
-                    href="https://wa.link/qa6wwc"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0993871070
-                  </a>
-                  <a
-                    href="https://wa.link/lusepd"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0982330722
-                  </a>
-                  <a
-                    href="https://wa.link/yz0hhb"
-                    className="hover:text-blue-400 transition duration-200"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    0969891190
                   </a>
                 </div>
               </li>
