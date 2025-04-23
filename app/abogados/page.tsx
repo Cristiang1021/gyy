@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Facebook, MapPin, MessageSquare } from "lucide-react";
+import ChatBot from "@/components/ChatBot";
 
 const defaultAvatar = "/avatar.png"; // Ruta de la imagen predeterminada
 
@@ -280,7 +281,7 @@ export default function OurLawyers() {
           </div>
         </section>
       </main>
-
+      <ChatBot />
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ml-4">

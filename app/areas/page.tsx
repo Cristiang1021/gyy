@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { Facebook, MapPin, MessageSquare } from "lucide-react";
+import ChatBot from "@/components/ChatBot";
 
 // Datos organizados por categoría
 const categories = {
@@ -220,6 +221,9 @@ export default function PracticeAreas() {
         </div>
       </main>
 
+      <ChatBot />
+
+      
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ml-4">

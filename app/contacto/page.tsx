@@ -6,6 +6,7 @@ import { MapPin, Phone, Mail, Clock, Facebook, MessageSquare } from "lucide-reac
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import ChatBot from "@/components/ChatBot";
 
 export default function Contact() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -177,6 +178,9 @@ export default function Contact() {
 
       </main>
 
+      <ChatBot />
+
+      
      {/* Footer */}
      <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ml-4">

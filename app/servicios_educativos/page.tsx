@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, FileText, BookOpen, ExternalLink, MapPin, MessageSquare, Facebook } from "lucide-react";
 import { useState } from "react";
+import ChatBot from "@/components/ChatBot";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -247,6 +248,8 @@ export default function ServiciosEducativos() {
           </motion.section>
         </motion.div>
       </main>
+
+      <ChatBot />
 
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">

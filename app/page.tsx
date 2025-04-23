@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Facebook, MapPin, MessageSquare } from "lucide-react";
 import { useState, useEffect } from "react";
+import ChatBot from "@/components/ChatBot";
 
 const carouselImages = [
   { src: "/hero1.jpeg", alt: "Imagen 1 - G&G Abogados" },
@@ -237,8 +238,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+              
       </main>
-
+      <ChatBot />
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 ml-4">
